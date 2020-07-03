@@ -1,0 +1,72 @@
+html{
+    background-image: linear-gradient(45deg, rgb(99, 97, 97) 0%, #e2e2e4 30%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+canvas#gameCanvas{
+ float :right;
+ display:block;
+ background-image: 
+    linear-gradient(hsla(215,30%,70%,0.9) 0%, hsla(215,30%,70%,0) 50%, hsla(215,30%,70%,0.9) 100%), 
+    linear-gradient(to right, hsla(215,30%,80%,0.8) 30%, white 50%, hsla(215,30%,80%,0.8) 70%);
+ border: 4px solid rgb(151, 148, 148);
+ width: 50%;
+ margin-right: 25%;
+}
+
+#counter{
+    float:both;
+    background-image: linear-gradient(to left, rgb(99, 97, 97) 0%, #b1b1f5 50%);
+    color : black;
+    border: 2px solid black;
+    border-radius: 5px;  
+    padding: 4px;
+}
+
+#counterFont{
+    border : 1px solid black;
+    background-color:#fffff3;
+    border-radius: 5px;
+    padding: 0 2px 0 2px;
+}
+
+#counterNumber{
+    border : 1px solid black;
+    background-color:#fffff3;
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+}
+
+#timeOutput{
+    float:both;
+    background-image: linear-gradient(to left, rgb(99, 97, 97) 0%, #b1b1f5 50%);
+    color : black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 0.2em;
+}
+
+#startPause{
+   background-color: lightslategray;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-top: 0.2em;  
+}
+
+#startPause:hover{
+    background-color: rgb(80, 86, 92);
+     margin-top: 0.2em;  
+}
+
+#sidebar{
+    float: left;
+    border:1px solid  rgb(151, 148, 148);
+    padding : 10px;
+    margin: 1px;
+    background-image: linear-gradient(to right, rgb(99, 97, 97) 0%, #b1b1f5 50%)
+}
+#keyText{
+    text-align: center;
+    font-size: 10px;
+}

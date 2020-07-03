@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/game.css"  />
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="game">
+        <canvas id="gameCanvas">
+        </canvas>
+    </div>
+    <div id="sidebar">
+        <div id="counter">
+            <span id="counterFont">Points</span>
+            <span id="counterNumber">0</span>
+        </div>
+        <div id="timeOutput">00:00:0</div>
+        <div id="timeControls"></div>
+        <button id="startPause" onclick="stopwatch.startPause()">Start</button>
+        <div id="keyText">
+            <br /><b>KEYS</b><br />arrow left<br />arrow up<br />arrow down<br />strg : fire<br />
+            <br /><b>Important notice:</b><br /> no actual cats were harmed
+
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
